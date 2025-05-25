@@ -119,15 +119,19 @@ We gratefully acknowledge the following works that inspired and contributed to t
 ---
 ## Citation
 ```
-@inproceedings{liu2025filling,
-  title={Filling memory gaps: Enhancing continual semantic parsing via sql syntax variance-guided llms without real data replay},
-  author={Liu, Ruiheng and Zhang, Jinyu and Song, Yanqi and Zhang, Yu and Yang, Bailong},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={39},
-  number={23},
-  pages={24641--24649},
-  year={2025}
-}
+@article{Liu_Zhang_Song_Zhang_Yang_2025, 
+    title={Filling Memory Gaps: Enhancing Continual Semantic Parsing via SQL Syntax Variance-Guided LLMs Without Real Data Replay}, 
+    volume={39}, 
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/34644}, 
+    DOI={10.1609/aaai.v39i23.34644}, 
+    abstractNote={Continual Semantic Parsing (CSP) aims to train parsers to convert natural language questions into SQL across tasks with limited annotated examples, adapting to dynamically updated databases in real-world scenarios. Previous studies mitigate this challenge by replaying historical data or employing parameter-efficient tuning (PET), but they often violate data privacy or rely on ideal continual learning settings. To address these issues, we propose a new Large Language Model (LLM)-Enhanced Continuous Semantic Parsing method, named LECSP, which alleviates forgetting while encouraging generalization, without requiring real data replay or ideal settings. Specifically, it first analyzes the commonalities and differences between tasks from the SQL syntax perspective to guide LLMs in reconstructing key memories and improving memory accuracy through calibration. Then, it uses a task-aware dual-teacher distillation framework to promote the accumulation and transfer of knowledge during sequential training. Experimental results on two CSP benchmarks show that our method significantly outperforms existing methods, even those utilizing data replay or ideal settings. Additionally, we achieve generalization performance beyond upper limits, better adapting to unseen tasks.}, 
+    number={23}, 
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+    author={Liu, Ruiheng and Zhang, Jinyu and Song, Yanqi and Zhang, Yu and Yang, Bailong}, 
+    year={2025}, 
+    month={Apr.}, 
+    pages={24641-24649} 
+    }
 ```
 
 
