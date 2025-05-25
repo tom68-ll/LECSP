@@ -1,0 +1,17 @@
+python train_utils/train.py --cuda_visible_devices 0 \
+                            --backbone_plm t5-large-lm-adapt \
+                            --per_device_train_batch_size 14 \
+                            --per_device_eval_batch_size 14 \
+                            --gradient_accumulation_steps 1 \
+                            --dataset_type spider \
+                            --dataset spider_stream_aug \
+                            --task_num 10 \
+                            --first_task_id 0 \
+                            --last_task_id 9 \
+                            --do_cl_eval true \
+                            --root_output_dir out\
+                            --num_train_epochs 60\
+                            --alpha 0.1 \
+                            --temperature 1.0 \
+                            --learning_rate 1e-05 \
+                            --aug 
